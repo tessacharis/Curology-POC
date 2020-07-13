@@ -7,8 +7,8 @@ import Call from '../components/Call';
 
 const Home = (props) => {
   const markdown = props.data.allMarkdownRemark.edges;
-  console.log(markdown);
   const json = props.data.allFeaturesJson.edges;
+  const pathPrefix = process.env.pathPrefix;
   return (
     <Layout bodyClass="page-home">
       <SEO title="Home" />
@@ -40,7 +40,7 @@ const Home = (props) => {
                 <div data-sal="fade"
                 data-sal-delay={fadeCount}
                 data-sal-easing="linear" key={edge.node.frontmatter.path} className="card service service-teaser">
-                  <div class="card-image" style={{ backgroundImage: `url(${edge.node.frontmatter.background}` }}>
+                  <div class="card-image" style={{ backgroundImage: `url(${location.pathname}${edge.node.frontmatter.background}` }}>
                     <img
                       alt={edge.node.frontmatter.title}
                       className="img-fluid mb-2"
