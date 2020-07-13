@@ -2,8 +2,8 @@
 path: '/services/moisturizes'
 title: "Moisturizes"
 date: 2018-11-28T15:14:54+10:00
-image: '/services/curology-moisturizes.jpg'
-background: '/services/moisturizer-background.jpg'
+image: 'services/curology-moisturizes.jpg'
+background: 'services/moisturizer-background.jpg'
 featured: true
 draft: false
 ---

@@ -2,8 +2,8 @@
 path: '/services/sun-spots'
 title: 'Sun Spots'
 date: 2018-11-28T15:15:34+10:00
-image: '/services/curology-bottle.jpg'
-background: '/services/sun-spots-background.jpg'
+image: 'services/curology-bottle.jpg'
+background: 'services/sun-spots-background.jpg'
 featured: true
 draft: false
 ---

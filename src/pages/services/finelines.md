@@ -2,8 +2,8 @@
 path: '/services/fine-lines-wrinkles'
 title: 'Fine Lines & Wrinkles'
 date: 2018-11-28T15:15:26+10:00
-image: '/services/curology-fine-lines-wrinkles.jpg'
-background: '/services/wrinkles-background.jpg'
+image: 'services/curology-fine-lines-wrinkles.jpg'
+background: 'services/wrinkles-background.jpg'
 featured: true
 draft: false
 ---
