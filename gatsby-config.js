@@ -27,7 +27,7 @@ module.exports = {
       },
     ],
   },
-  pathPrefix: "/Curology-POC",
+  pathPrefix: "/Curology-POC/",
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
