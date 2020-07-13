@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 0px;
   padding-bottom: 100px;
   @include media-breakpoint-up(sm) {
     padding-top: 160px;
@@ -18,20 +18,20 @@
   }
   h1 {
     color: $primary;
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 70%;
     @include media-breakpoint-up(sm) {
-      width: 70%;
+      width: 60%;
     }
     @include media-breakpoint-up(md) {
-      font-size: 3rem;
-      width: 70%;
+      font-size: 3.5rem;
+      width: 60%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 3rem;
-      width: 50%;
+      font-size: 3.5rem;
+      width: 60%;
     }
   }
   p {
@@ -41,17 +41,30 @@
     line-height: 1.4;
     color: $secondary;
     @include media-breakpoint-up(sm) {
-      width: 70%;
+      width: 60%;
     }
     @include media-breakpoint-up(md) {
       width: 60%;
     }
     @include media-breakpoint-up(lg) {
-      width: 40%;
+      width: 60%;
     }
   }
 }
 .intro-small {
   padding-top: 100px;
   padding-bottom: 30px;
+}
+
+.intro-home {
+  background-image: url('../images/home-img-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  background-position: 55%;
+  @include media-breakpoint-up(md) {
+    max-height: 800px;
+    background-position: bottom center;
+  }
 }

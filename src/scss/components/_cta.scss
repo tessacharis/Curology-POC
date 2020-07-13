@@ -1,0 +1,46 @@
+.cta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 125px;
+  background-image: url('../images/curology-j7pKVQrTUsM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  background-size: 100%;
+  background-position: bottom right;
+  @include media-breakpoint-up(md) {
+    max-height: 800px;
+    background-size: 50%;
+    text-align: left;
+    background-position: bottom right;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 100px;
+  }
+  h2 {
+    color: $primary;
+    text-align: center;
+    font-size: 3.4rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    @include media-breakpoint-up(md) {
+      font-size: 3.5rem;
+      text-align: left;
+    }
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.4;
+    color: $secondary;
+    @include media-breakpoint-up(sm) {
+      text-align: left;
+      width: 100%;
+    }
+  }
+}

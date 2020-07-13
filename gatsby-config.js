@@ -2,11 +2,11 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
+    title: 'Curology Anti-Aging',
     description: 'my theme',
     contact: {
       phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      email: 'feelyoung@curology.com',
     },
     menuLinks: [
       {
@@ -32,6 +32,7 @@ module.exports = {
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-scroll-reveal',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

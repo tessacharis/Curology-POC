@@ -25,6 +25,7 @@
 .title-3 {
   font-family: $font-family-base;
   font-weight: light;
+  text-align: center;
   color: #333333;
   font-size: 1.6rem;
   @include media-breakpoint-up(sm) {
