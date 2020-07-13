@@ -48,3 +48,25 @@
     }
   }
 }
+
+ul.checklist {
+  list-style-type: none;
+  li {
+    position: relative;
+    line-height: 55px;
+    padding: 0px 0px 0px 45px;
+    &:before {
+      border: 2px solid $primary;
+      background-color: lighten($primary, 70%);
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      top: 0.8em;
+      left: 0.8em;
+      content: " ";
+
+    }
+  }
+}
